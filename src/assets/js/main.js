@@ -1,3 +1,10 @@
+// Import our custom CSS
+import '../../scss/styles.scss'
+
+// Import all of Bootstrap's JS
+import * as bootstrap from 'bootstrap'
+
+
 /**
 * Template Name: iPortfolio
 * Updated: Nov 17 2023 with Bootstrap v5.3.2
@@ -262,8 +269,3 @@
 })()
 
 
-// Import our custom CSS
-import '../scss/styles.scss'
-
-// Import all of Bootstrap's JS
-import * as bootstrap from 'bootstrap'
